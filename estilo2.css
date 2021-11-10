@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	font-family: Arial;
 	background-color: #fff;
@@ -46,3 +47,53 @@ tr:hover td{
 }
 
 
+=======
+body{
+	font-family: Arial;
+	background-color: #fff;
+}
+
+#main-container{
+	margin-top: 50px ;
+	width: 600px;
+	margin-left: 500px;
+}
+
+table{
+	width: 150%;
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+
+}
+
+th,td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #DDD;
+}
+
+
+tr:hover td{
+	background-color: #8A9BE0;
+	color: white;
+}
+
+#titulo{
+	margin-top:200px;
+	margin-left: 500px;
+	font-size: 60px;
+	color: #8A9BE0;
+	text-transform: capitalize;
+}
+
+
+>>>>>>> a909d36dd7ff28c219ee569e718aaafa4d369934
