@@ -3,7 +3,7 @@
 $dbhost="localhost";
 $dbuser="root";
 $dbpass="";
-$dbname="prototipos";
+$dbname="prototipo";
 
 $conectar=mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 
