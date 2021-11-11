@@ -1,20 +1,7 @@
 <?php
 
-$dbhost="localhost";
-$dbuser="root";
-$dbpass="";
-$dbname="prototipo";
+require 'conexion.php';
 
-$conn=mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
-
-if (!$conn) {
-	die("No hay conexion: ".mysqli_connect_error());
-}
-
-
-  	$conexion=mysqli_connect('localhost','root','','prototipo');
-	$sql="SELECT numero_empleado,nombre_empleado from asistencia_empleado";
-	$result=mysqli_query($conexion,$sql);
 
 ?>
 
@@ -94,13 +81,13 @@ if (!$conn) {
 			<td>Numero de empleado </td>
 			<td>Nombre del empleado </td>
 			<td>Hora de registro</td>
-			<td>Hora oficial</td>
+			
 		</tr>
         </thead>
         <?php 
 
-        $sql="SELECT * FROM asisten";
-        $result=mysqli_query($conn,$sql);
+        $sql="SELECT * FROM asistencia";
+        $result=mysqli_query($conectar,$sql);
 
         while ($mostrar=mysqli_fetch_array($result)) {
         
@@ -110,7 +97,7 @@ if (!$conn) {
 			<td width="100px" height="50px"><?php echo $mostrar['numero_empleado']?></td>
 			<td width="550px;"><?php echo $mostrar['nombre_empleado']?></td>
 			<td><?php echo $mostrar['hora_registro']?></td>
-			<td><?php echo $mostrar['hora_oficial']?></td>
+		
 		</tr>
 
 		<?php 
@@ -126,14 +113,15 @@ if (!$conn) {
 	</div>
 
 	<form action="index.html" method="POST" >
-		<input type="hidden" name="Mostrar" >
+		
 		<input type="submit" value="Salir" style="margin-left: 500px; background-color:#EE5341; margin-bottom: 40px; margin-top: 50px; margin-right: 10px; text-align: 50px;">
 
 
 
-		<form action="justificante.php" method="POST" id="myForm" >
-		<input type="hidden" name="Mostrar" >
+		<form action="justificante.php" method="POST"  >
+
 		<input type="submit" value="Justificar" >
+
 		</form>
 
 	
