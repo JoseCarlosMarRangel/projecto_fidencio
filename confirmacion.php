@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -162,31 +160,18 @@
    
 	<form method="post" action="login2.php">
 		
-			<label style="margin-left: 130px; align-content:center; color: white; font-style: italic; font:italic 150% segoe ui; background-color: #755d45
-			; padding-bottom: 2px;padding-top: 2px; padding-left:4px; padding-right:4px; ">REGISTRO DE ASISTENCIA</label>
+			<label style="margin-left: 0px; align-content:center; color: white; font-style: italic; font:italic 250% segoe ui; background-color: #755d45
+			; padding-bottom: 2px;padding-top: 0px; padding-left:4px; padding-right:4px; ">ASISTENCIA REGISTRADA SATISFACTORIAMENTE</label>
 		
 	</form>
 </center>
 
 <body >
 	<title>Asistencia</title>
-	<form action="login5.php" autocomplete="on" method="POST">
-
-	    <input type="text" name="NumeroE" id="direccion" placeholder="Numero del empleado" required >
-			<input type="text" name="NombreE" id="Nombre" placeholder="Inserte su nombre" required >
-			<input type="submit" name="Ingresar" value="Registrar asistencia" style="margin-left: 350px; background-color: #755d45; margin-bottom: 0px; margin-top: 0px; color: white; font: italic 120% Segoe UI;" >
+	
+	<form action="index.html" method="POST">
+		<input type="submit" value="Continuar" style="margin-left: 150px; background-color: #755d45; margin-bottom: 5px; margin-top: 5px; color: white;font: italic 120% Segoe UI" >
 	</form>
-
-	<form action="Vasistencia_Empleado.php" method="POST">
-		<input type="hidden" name="Mostrar">
-		<input type="submit" value="Reporte empleado" style="margin-left: 0px; margin-right:100px; background-color: #755d45; margin-bottom: 0px; margin-top: 0xx; color: white;font: italic 120% Segoe UI" >	
-	</form>
-
-	<form action="confirmacion_admin.php" method="POST"   >
-		<input type="hidden" name="Mostrar"  >
-		<input type="submit" value="Administrador" style="margin-left: 1px; background-color: #755d45; margin-bottom: 0px; margin-top: 0px; color: white;font: italic 120% Segoe UI" >
-	</form>
-
 
 
 </body>
