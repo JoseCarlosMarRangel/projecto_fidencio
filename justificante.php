@@ -4,18 +4,19 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Justificante</title>
+	<link rel="stylesheet" href="justificas.css">
 </head>
 <body>
 
+<h1>REGISTRO DE ASISTENCIA</h1>
+
 
 	<form action="" method="POST">
-		<label for="">Justificacion</label>
-		<input type="text" name="texto_justificacion" id="">
+		<textArea></textArea>
 	</form>
 
-	
-
+	<button id="regresar" onclick="location.href='index.html'">SALIR</button>
+	<button id="confirmar" onclick="location.href='index.html'">CONFIRMAR</button>
 	
 </body>
 </html>
