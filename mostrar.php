@@ -13,7 +13,7 @@ if (!$conn) {
 
 
   	$conexion=mysqli_connect('localhost','root','','prototipo');
-	$sql="SELECT numero_empleado,nombre_empleado from asistencia_empleado";
+	$sql="SELECT numero_empleado,nombre_empleado from asistencia";
 	$result=mysqli_query($conexion,$sql);
 
 ?>
@@ -99,7 +99,7 @@ if (!$conn) {
         </thead>
         <?php 
 
-        $sql="SELECT * FROM asisten";
+        $sql="select numero_empleado, nombre_empleado, hora_registro, hora_oficial from asistencia";
         $result=mysqli_query($conn,$sql);
 
         while ($mostrar=mysqli_fetch_array($result)) {
