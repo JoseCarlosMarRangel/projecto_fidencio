@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="jquery.js"></script>
-</head>
-<style>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Administrador</title>
+	<style>
 	
 	table{
 		border: 2px solid #353A46;
@@ -156,32 +158,29 @@
 
 </style>
 
+</head>
 
-   
-	<form method="post" action="login2.php">
+	
+		<title>Administrador</title>
+	<form action="login2.php" autocomplete="off" method="POST">
+
+		<table>
+	        
+			<input type="submit" name="Ingresar" value="Registrar asistencia " style="margin-left: 150px; background-color: #52D95F; max-width: 50%; color: blue;" >
 		
-			<label style="margin-left: 110px; align-content:center; color: white; font-style: italic; font:italic 150% segoe ui; background-color: #755d45
-			; padding-bottom: 2px;padding-top: 2px; padding-left:4px; padding-right:4px; ">REGISTRO DE ASISTENCIA</label>
-		
-	</form>
-</center>
-
-<body >
-	<title>Asistencia</title>
-	<form action="mostrar.php" autocomplete="on" method="POST">
-
-		<input type="submit" name="Ingresar" value="Reporte de asistencia" style="margin-left: 150px; background-color: #755d45; margin-bottom: 0px; margin-top: 0px; color: white; font: italic 120% Segoe UI;" >
 	</form>
 
-	<form action="confirmacion.php" method="POST">
-
-		<input type="submit" value="Registrar asistencia" style="margin-left: 150px;  background-color: #755d45; margin-bottom: 0px; margin-top: 0px; color: white;font: italic 120% Segoe UI" >	
+    <form action="mostrar.php" method="POST"   >
+		<input type="hidden" name="Mostrar"  >
+		<input type="submit" value="Mostrar Asistencia" style="margin-left: 150px; background-color: #52D95F; margin-bottom: 20px; margin-top: 10px; color: blue;" >
+	
 	</form>
 
-	<form action="index.html" method="POST">
-		<input type="submit" value="Salir" style="margin-left: 150px; background-color: #755d45; margin-bottom: 5px; margin-top: 5px; color: white;font: italic 120% Segoe UI" >
+	<form action="index.html" method="POST"   >
+		<input type="hidden" name="Mostrar"  >
+		<input type="submit" value="Salir" style="margin-left: 150px; background-color: #52D95F; margin-bottom: 40px; margin-top: 0px; color: blue;" >
+	
 	</form>
-
 
 </body>
 </html>
