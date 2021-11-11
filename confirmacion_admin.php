@@ -178,7 +178,7 @@
 	</form>
 
 
-	<form action="index.html" autocomplete="of" method="POST">
+	<form action="index.php" autocomplete="of" method="POST">
  	
 		
 			<input type="submit" value="Salir" style="margin-left: 170px; margin-right: 100px; background-color: #755d45; margin-bottom: 10px; margin-top: 10px; color: white; font: italic 120% Segoe UI;">

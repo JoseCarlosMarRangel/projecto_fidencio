@@ -94,12 +94,11 @@ if (!$conn) {
 			<td>Numero de empleado </td>
 			<td>Nombre del empleado </td>
 			<td>Hora de registro</td>
-			<td>Hora oficial</td>
 		</tr>
         </thead>
         <?php 
 
-        $sql="SELECT * FROM asisten";
+        $sql="SELECT * FROM asistencia";
         $result=mysqli_query($conn,$sql);
 
         while ($mostrar=mysqli_fetch_array($result)) {
@@ -110,7 +109,6 @@ if (!$conn) {
 			<td width="100px" height="50px"><?php echo $mostrar['numero_empleado']?></td>
 			<td width="550px;"><?php echo $mostrar['nombre_empleado']?></td>
 			<td><?php echo $mostrar['hora_registro']?></td>
-			<td><?php echo $mostrar['hora_oficial']?></td>
 		</tr>
 
 		<?php 
@@ -125,13 +123,13 @@ if (!$conn) {
 	</table>
 	</div>
 
-	<form action="index.html" method="POST" >
+	<form action="index.php" method="POST" >
 		<input type="hidden" name="Mostrar" >
 		<input type="submit" value="Salir" style="margin-left: 500px; background-color:#EE5341; margin-bottom: 40px; margin-top: 50px; margin-right: 10px; text-align: 50px;">
 
 
 
-		<form action="index.html" method="POST" id="myForm" >
+		<form action="index.php" method="POST" id="myForm" >
 		<input type="hidden" name="Mostrar" >
 		<input type="submit" value="Descargar" >
 		</form>

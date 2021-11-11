@@ -169,7 +169,7 @@
 <body >
 	<title>Asistencia</title>
 	
-	<form action="index.html" method="POST">
+	<form action="index.php" method="POST">
 		<input type="submit" value="Continuar" style="margin-left: 150px; background-color: #755d45; margin-bottom: 5px; margin-top: 5px; color: white;font: italic 120% Segoe UI" >
 	</form>
 

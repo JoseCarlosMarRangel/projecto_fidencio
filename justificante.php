@@ -11,12 +11,12 @@
 <h1>REGISTRO DE ASISTENCIA</h1>
 
 
-	<form action="" method="POST">
+	<form action="index.php" method="POST">
 		<textArea></textArea>
 	</form>
 
-	<button id="regresar" onclick="location.href='index.html'">SALIR</button>
-	<button id="confirmar" onclick="location.href='index.html'">CONFIRMAR</button>
+	<button id="regresar" onclick="location.href='index.php'">SALIR</button>
+	<button id="confirmar" onclick="location.href='index.php'">CONFIRMAR</button>
 	
 </body>
 </html>
