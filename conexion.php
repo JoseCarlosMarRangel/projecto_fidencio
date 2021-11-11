@@ -12,5 +12,4 @@ if (!$conectar) {
 }else{
 	echo "Conexion exitosa";
 }
-
 ?>
