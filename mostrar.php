@@ -24,7 +24,7 @@ if (!$conn) {
 	
 	input[type=submit]{
 		border: none;
-			 background: #159098;
+			 background: #755d45;
     		cursor: pointer;
     		border-radius: 3px;
     		padding: 6px;
@@ -34,7 +34,7 @@ if (!$conn) {
     		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
     		margin-top: 10px;
     		margin-bottom: 10px;
-    		margin-left: 840px;
+    		margin-left: 490px;
 	}
 </style>
 
@@ -127,13 +127,13 @@ if (!$conn) {
 
 	<form action="index.html" method="POST" >
 		<input type="hidden" name="Mostrar" >
-		<input type="submit" value="Salir" style="margin-left: 840px; background-color: green; margin-bottom: 40px; margin-top: 50px; margin-right: 10px; text-align: 50px;">
+		<input type="submit" value="Salir" style="margin-left: 500px; background-color:#EE5341; margin-bottom: 40px; margin-top: 50px; margin-right: 10px; text-align: 50px;">
 
 
 
-		<form action="login3.php" method="POST" id="myForm" >
+		<form action="index.html" method="POST" id="myForm" >
 		<input type="hidden" name="Mostrar" >
-		<input type="submit" value="Eliminar registros" >
+		<input type="submit" value="Descargar" >
 		</form>
 
 	
@@ -144,8 +144,3 @@ if (!$conn) {
 </body>
 </html>
 
-<script type="text/javascript">
-	$(document).ready(function(){
-		$('#controlBuscador').select2();
-	});
-</script>
