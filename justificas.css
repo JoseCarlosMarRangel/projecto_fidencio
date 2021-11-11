@@ -1,0 +1,53 @@
+body {
+    background-color: #E7E7D8;
+    font-family: Arial;
+}
+
+h1 {
+    margin-left: 40%;
+    margin-right: 40%;
+    align-content: center;
+    color: white;
+    font-style: italic;
+    font: italic 150% segoe ui;
+    background-color: #755d45;
+    text-align: center;
+}
+
+textarea{
+    width: 50%;
+    padding: 12px ;
+    margin-left: 26%;
+    margin-right: 10%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    height: 200px;
+}
+
+#regresar
+{
+    background-color: #ff5252;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 26%;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#confirmar
+{
+    background-color: #755d45;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 36%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
